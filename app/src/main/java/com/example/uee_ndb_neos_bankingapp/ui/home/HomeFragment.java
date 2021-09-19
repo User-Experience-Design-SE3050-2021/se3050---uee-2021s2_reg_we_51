@@ -13,11 +13,11 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.uee_ndb_neos_bankingapp.R;
-//import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
+import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 
-    /*private HomeViewModel homeViewModel;
+    private HomeViewModel homeViewModel;
     private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -42,5 +42,5 @@ public class HomeFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
-    }*/
+    }
 }

@@ -3,31 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/dashboardimg_background.xml" value="0.3098958333333333" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/ic_menu_camera.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/profile_img_background.xml" value="0.3828125" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Tandin Wangchen/AndroidStudioProjects/UEE_NDB_Neos_BankingApp/app/src/main/res/mipmap-anydpi-v26/dashboardimg.xml" value="0.3098958333333333" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/dashboardimg_background.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_add_button.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_background_box.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_blue.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_red.xml" value="0.2" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_white.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_payee_add.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_payee_list.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/payee_bank_name.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/profile_img_background.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/add_biller.xml" value="0.16052631578947368" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_border_red.xml" value="0.16052631578947368" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_form.xml" value="0.264" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_list.xml" value="0.2" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_test.xml" value="0.264" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_form.xml" value="0.2" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_onetime.xml" value="0.264" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/menu/activity_main_drawer.xml" value="0.6" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

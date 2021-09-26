@@ -3,6 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <group android:checkableBehavior="single"
 
+        >
+        <item
+            android:title="@string/menu_home" />
+        <item
+            android:title="Payee Management" />
+        <item
+            android:title="Biller Management" />
+        <item
+            android:title="Card Management" />
+        <item
+            android:title="Open account" />
+        <item
+            android:title="Instant Card Advance" />
+        <item
+            android:title="Service Request" />
+        <item
+            android:title="Contact US" />
+        <item
+            android:title="FAQ" />
+        <item
+            android:title="Terms and Conditions" />
+        <item
+            android:title="Setting" />
+        <item
+            android:title="Logout" />
+    </group>
 
 </menu>

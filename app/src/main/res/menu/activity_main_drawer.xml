@@ -7,40 +7,28 @@
 
         >
         <item
-            android:id=""
             android:title="@string/menu_home" />
         <item
-            android:id=""
             android:title="Payee Management" />
         <item
-            android:id=""
             android:title="Biller Management" />
         <item
-            android:id=""
             android:title="Card Management" />
         <item
-            android:id=""
             android:title="Open account" />
         <item
-            android:id=""
             android:title="Instant Card Advance" />
         <item
-            android:id=""
             android:title="Service Request" />
         <item
-            android:id=""
             android:title="Contact US" />
         <item
-            android:id=""
             android:title="FAQ" />
         <item
-            android:id=""
             android:title="Terms and Conditions" />
         <item
-            android:id=""
             android:title="Setting" />
         <item
-            android:id=""
             android:title="Logout" />
     </group>
 

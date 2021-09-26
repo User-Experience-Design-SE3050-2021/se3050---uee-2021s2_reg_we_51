@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FundTransactionForm"
+            android:name=".ui.fund.FundTransactionForm"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar">
         </activity>
         <!--<activity
@@ -36,15 +36,15 @@
             </intent-filter>
         </activity>-->
         <activity
-            android:name=".FundTransactionOneTime"
+            android:name=".ui.fund.FundTransactionOneTime"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar">
         </activity>
         <activity
-            android:name=".FundPayeeList"
+            android:name=".ui.fund.FundPayeeList"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar">
         </activity>
         <activity
-            android:name=".FundPayeeForm"
+            android:name=".ui.fund.FundPayeeForm"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar">
         </activity>
 

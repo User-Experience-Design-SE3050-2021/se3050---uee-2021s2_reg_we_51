@@ -4,8 +4,6 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/item1"
-            android:title="@string/menu_home"/>
         <item android:id="@+id/item2"
             android:title="Payee Management" />
         <item android:id="@+id/item3"

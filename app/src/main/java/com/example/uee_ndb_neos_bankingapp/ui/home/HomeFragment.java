@@ -53,14 +53,14 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        ibtn1 = root.findViewById(R.id.imageButton19);
+        ibtn1 = root.findViewById(R.id.imageButton22);
         fab1 = root.findViewById(R.id.floatingActionButton);
 
 
         ibtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), FundPayeeList.class);
+                Intent intent = new Intent(getContext(), FundTransactionForm.class);
                 startActivity(intent);
 
             }

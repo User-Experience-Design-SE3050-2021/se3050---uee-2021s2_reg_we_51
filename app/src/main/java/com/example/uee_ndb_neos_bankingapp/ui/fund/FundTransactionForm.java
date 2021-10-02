@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.uee_ndb_neos_bankingapp.MainActivity;
 import com.example.uee_ndb_neos_bankingapp.R;
 
 public class FundTransactionForm extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -31,8 +32,8 @@ public class FundTransactionForm extends AppCompatActivity implements AdapterVie
         Button button = (Button) findViewById(R.id.button2);
         startActivity(intent);
     }
-    public void sendToPayeeList(View view) {
-        Intent intent = new Intent(this,  FundPayeeList.class);
+    public void sendToHome(View view) {
+        Intent intent = new Intent(this,  MainActivity.class);
         Button button = (Button) findViewById(R.id.button);
         startActivity(intent);
     }

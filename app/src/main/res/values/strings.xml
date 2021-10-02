@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UEE_NDB_Neos_BankingApp</string>
+    <string name="app_name">NDB Neos</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -10,4 +10,23 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string-array name="payee_list">
+        <item>Select a payee</item>
+        <item>SLIIT</item>
+        <item>Navodya Pasqual</item>
+        <item>Dilini Pasqual</item>
+        <item>Prabavi Ranaveera</item>
+    </string-array>
+    <string-array name="bank_list">
+        <item>Select a bank</item>
+        <item>NDB</item>
+        <item>BOC</item>
+        <item>PB</item>
+        <item>RDB</item>
+    </string-array>
+    <string-array name="account_type_list">
+        <item>Select a account type</item>
+        <item>Saving Account</item>
+        <item>Current Account</item>
+    </string-array>
 </resources>

@@ -11,6 +11,7 @@
         android:theme="@style/Theme.UEE_NDB_Neos_BankingApp">
         <activity
             android:name=".DashboardBrief"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

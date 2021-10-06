@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/r_capture_v3"
+        tools:context=".RKInitialLandingOne">
+
+
+    <Button
+        android:id="@+id/welcome_main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/fund_border_red"
+        android:padding="10dp"
+        android:text="@string/Login_Selection_Btn"
+        android:textAllCaps="false"
+        android:textColor="#E53535"
+        android:onClick="sendToInitialLogin"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+    <TextView
+
+        android:id="@+id/Cr_NDB_ACC"
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="422dp"
+
+        android:layout_marginRight="7dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Open_NDB_Account"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/welcome_main_join_now_btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/welcome_main_login_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/fund_border_red"
+        android:onClick="sendToRegistation"
+        android:padding="10dp"
+        android:text="@string/Create_Account_Selection_Button"
+        android:textAllCaps="false"
+        android:textColor="#E53535"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>
+

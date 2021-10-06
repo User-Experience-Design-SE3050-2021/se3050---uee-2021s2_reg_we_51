@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegistationFragmentTwo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fund_payee_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/fund_background_box">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Card Number"
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/cardnf1o1"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Card Expiry Date"
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/cdexpf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="date"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="CCV"
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/ccvf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="ATM PIN"
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/atmpinf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="numberPassword"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="User Name For App:- "
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/usnf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Password For App:- "
+                        android:textColorHint="#403C3C"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/pwdf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fund_border_blue"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+                        android:textColor="#686161"
+                        android:textColorHint="#686161"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_margin="0dp">
+
+                    <CheckBox
+                        android:id="@+id/chkf2final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="I confirm that, I'm the owner of the NDB Card."
+                        android:textColor="#403C3C"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:layout_margin="3dp">
+
+                    <Button
+                        android:id="@+id/buttonf2final"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginEnd="42dp"
+                        android:background="@drawable/fund_border_red"
+                        android:onClick="submit"
+                        android:text="Register NEOS"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>
+

@@ -19,8 +19,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.uee_ndb_neos_bankingapp.ContactUs;
 import com.example.uee_ndb_neos_bankingapp.DashboardBrief;
+import com.example.uee_ndb_neos_bankingapp.MainRegistationPage;
+import com.example.uee_ndb_neos_bankingapp.NewUserFirstLogIN;
 import com.example.uee_ndb_neos_bankingapp.R;
+import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
 import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionForm;
@@ -39,7 +43,7 @@ public class HomeFragment extends Fragment {
 
     ImageButton ibtn1 ;
     FloatingActionButton fab1;
-
+    ImageButton RKibtn01 ;
 
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -53,6 +57,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        RKibtn01 = root.findViewById(R.id.imageButton23);
         ibtn1 = root.findViewById(R.id.imageButton22);
         fab1 = root.findViewById(R.id.floatingActionButton);
 
@@ -74,6 +79,14 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        RKibtn01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), RKInitialLandingOne.class);
+                startActivity(intent);
+            }
+        });
+
         return root;
     }
 
@@ -82,8 +95,5 @@ public class HomeFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-
-
-
 
 }

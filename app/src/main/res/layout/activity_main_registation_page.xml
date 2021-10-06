@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fund_background"
+        tools:context=".MainRegistationPage">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_back"
+            android:onClick="sendToInitialLanding"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.735"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:hint="NEOS REGISTATION"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <EditText
+            android:id="@+id/Register_userfullname_input_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fund_border_blue"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint=" Plese Enter Your Full Name"
+            android:inputType="text"
+            android:textColor= "#141414"
+            android:textColorHint="#141414"
+            android:textSize="14sp"
+            ></EditText>
+
+    <LinearLayout
+        android:id="@+id/URGlinear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register_userfullname_input_input"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/URGcheck_boxrk_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="0dp"
+            android:text="Use my account "
+            android:textColor="#141414"
+            android:textSize="14sp"
+            android:onClick="changefragment"
+            />
+
+        <CheckBox
+            android:id="@+id/URGcheck_boxrk_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="0dp"
+            android:text="Use my ATM card "
+            android:textColor="#141414"
+            android:textSize="14sp"
+            android:onClick="changefragment2"
+            />
+
+    </LinearLayout>
+
+
+
+<fragment
+    android:id="@+id/fragmentDefault"
+    android:name="com.example.uee_ndb_neos_bankingapp.Registation_Fragment_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+

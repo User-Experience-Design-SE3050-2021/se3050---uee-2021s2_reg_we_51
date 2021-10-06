@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="Dialog">diaog</string>
     <string-array name="payee_list">
         <item>Select a payee</item>
         <item>SLIIT</item>
@@ -29,4 +30,22 @@
         <item>Saving Account</item>
         <item>Current Account</item>
     </string-array>
+
+    <string name="Create_Account_Selection_Button">Create NEOS Account</string>
+    <string name="Login_Selection_Btn">Log IN</string>
+    <string name="Welcome_Massage">Hi There Welcome !</string>
+    <string name="Open_NDB_Account">* New to NDB? Open Account Here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_neos_registation_basic_page">NeosRegistationBasicPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_basic_neos_registation_page">BasicNeosRegistationPage</string>
+
 </resources>

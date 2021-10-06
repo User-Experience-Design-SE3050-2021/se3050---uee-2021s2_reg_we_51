@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="SpeakableTextPresentCheck"
-    tools:context=".ui.fund.FundTransactionForm">
+    tools:context=".ui.bills.BillPayment">
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,11 +18,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:src="@drawable/ic_back"
+            android:background="@color/fund_red"
             android:onClick="sendToHome"
+            android:src="@drawable/ic_back"
             app:layout_constraintEnd_toStartOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.735"
+            app:layout_constraintHorizontal_bias="0.117"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,15 +31,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="172dp"
+            android:layout_marginEnd="120dp"
             android:hint="Fund Transaction"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#040303"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Bill Payment" />
 
         <TextView
             android:id="@+id/textView1"
@@ -53,77 +55,71 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="396dp"
             android:layout_height="94dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView1"
             app:srcCompat="@drawable/account_box" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="89dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="160dp"
             android:hint="Easy Saver"
             android:textColorHint="#322E2E"
             android:textSize="15sp"
             android:textStyle="bold"
-            app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-            app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.177"
-            app:layout_constraintStart_toStartOf="@+id/imageView4" />
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            tools:layout_editor_absoluteY="123dp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:hint="100 234 246 532"
+            android:layout_marginEnd="120dp"
+            android:hint="100 034 532 124"
             android:textColorHint="#322E2E"
             android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.165"
-            app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
+            tools:layout_editor_absoluteY="149dp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:hint="LKR. 1,000,000"
             android:textColorHint="#000000"
             android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView2"
-            app:layout_constraintHorizontal_bias="0.419"
-            app:layout_constraintStart_toStartOf="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            tools:layout_editor_absoluteX="291dp"
+            tools:layout_editor_absoluteY="169dp" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="95dp"
-            android:layout_height="51dp"
-            android:layout_marginEnd="60dp"
-            app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:srcCompat="@drawable/fund_account" />
+            android:layout_width="123dp"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/letters"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="123dp" />
+
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:hint="Pay To"
-            android:layout_marginTop="5dp"
             android:textColorHint="#403C3C"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintHorizontal_bias="0.108"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -132,28 +128,29 @@
             android:layout_width="318dp"
             android:layout_height="36dp"
             android:layout_marginStart="6dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="5dp"
             android:background="@drawable/fund_border_blue"
-            android:textColor="#686161"
+            android:hint="Dialog"
+            android:textColor="@color/black"
             android:textColorHint="#686161"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
             tools:ignore="SpeakableTextPresentCheck" />
-
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="24dp"
             android:hint="Amount (LKR)"
             android:textColorHint="#403C3C"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintHorizontal_bias="0.136"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
@@ -162,7 +159,7 @@
             android:layout_width="318dp"
             android:layout_height="36dp"
             android:layout_marginStart="6dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="5dp"
             android:background="@drawable/fund_border_blue"
             android:inputType="text"
@@ -171,6 +168,7 @@
             android:textColorHint="#686161"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.439"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -182,18 +180,17 @@
             android:hint="Remark"
             android:textColorHint="#403C3C"
             android:textSize="14sp"
-            android:layout_marginTop="5dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintHorizontal_bias="0.11"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edit_text2" />
+            tools:layout_editor_absoluteY="470dp" />
 
         <EditText
             android:id="@+id/editTextTextMultiLine1"
             android:layout_width="318dp"
             android:layout_height="110dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/fund_border_blue"
             android:ems="10"
@@ -206,24 +203,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="42dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="42dp"
-            android:background="@drawable/fund_border_red"
-            android:text="Pay Now"
+            android:background="@color/fund_red"
             android:onClick="sendToHome"
+            android:text="Pay Now"
             android:textColor="@color/red"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine1" />
 
@@ -237,7 +233,7 @@
             android:layout_marginBottom="35dp"
             android:background="@drawable/fund_border_red"
             android:onClick="sendToOneTimeFundTRanfer"
-            android:text="One Time Fund Transfer"
+            android:text="One Time Bill Payment"
             android:textSize="14sp"
 
             android:textStyle="bold"
@@ -247,6 +243,50 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="40dp"
+            android:text="Now"
+            android:textColor="#03A9F4"
+            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text2"
+            app:layout_constraintVertical_bias="0.567" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="144dp"
+            android:text="Later"
+            android:textColor="#00BCD4"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text2"
+            app:layout_constraintVertical_bias="0.101" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:srcCompat="@drawable/screenshot_2021_09_26_105834"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Available Balance"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="191dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

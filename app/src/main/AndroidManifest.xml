@@ -10,6 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UEE_NDB_Neos_BankingApp">
         <activity
+            android:name=".ContactUs"
+            android:exported="true"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"/>
+        <activity
+            android:name=".MainRegistationPage"
+            android:exported="true"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"/>
+        <activity
+            android:name=".NewUserFirstLogIN"
+            android:exported="true"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"/>
+        <activity
+            android:name=".RK_registered_user_daily_login"
+            android:exported="true"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
+            />
+        <activity
+            android:name=".RKInitialLandingOne"
+            android:exported="true"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
+            />
+        <activity
             android:name=".DashboardBrief"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             android:exported="true" />

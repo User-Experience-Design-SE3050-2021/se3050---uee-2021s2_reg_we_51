@@ -200,8 +200,8 @@
                         android:layout_marginTop="32dp"
                         android:layout_marginEnd="42dp"
                         android:background="@drawable/fund_border_red"
-                        android:text="Submit"
                         android:onClick="submit"
+                        android:text="Submit"
                         android:textColor="@color/red"
                         android:textSize="14sp"
                         android:textStyle="bold" />

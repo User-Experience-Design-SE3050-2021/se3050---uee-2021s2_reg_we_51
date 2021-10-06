@@ -26,6 +26,7 @@ import com.example.uee_ndb_neos_bankingapp.NewUserFirstLogIN;
 import com.example.uee_ndb_neos_bankingapp.R;
 import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
 import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
+import com.example.uee_ndb_neos_bankingapp.ui.bills.BillPayment;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionForm;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -42,6 +43,7 @@ public class HomeFragment extends Fragment {
     // imageview view variable
 
     ImageButton ibtn1 ;
+    ImageButton ibtn2;
     FloatingActionButton fab1;
     ImageButton RKibtn01 ;
 
@@ -58,7 +60,8 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         RKibtn01 = root.findViewById(R.id.imageButton23);
-        ibtn1 = root.findViewById(R.id.imageButton22);
+        ibtn1 = root.findViewById(R.id.imageButton22);//For fund transaction
+        ibtn2 = root.findViewById(R.id.imageButton19);//For bill payment
         fab1 = root.findViewById(R.id.floatingActionButton);
 
 
@@ -68,6 +71,14 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(getContext(), FundTransactionForm.class);
                 startActivity(intent);
 
+            }
+        });
+
+        ibtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), BillPayment.class);
+                startActivity(intent);
             }
         });
 

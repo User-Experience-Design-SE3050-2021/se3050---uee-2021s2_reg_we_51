@@ -22,13 +22,13 @@ public class BillPayment extends AppCompatActivity implements AdapterView.OnItem
 
         Spinner spinner = findViewById(R.id.spinner1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.payee_list, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);;
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
     }
 
-    public void sendToOneTimeFundTRanfer(View view) {
-        Intent intent = new Intent(this,  AddBiller.class);
+    public void sendToOneTimeBillPayment(View view) {
+        Intent intent = new Intent(this,  OneTimeBillPayment.class);
         Button button = (Button) findViewById(R.id.button2);
         startActivity(intent);
     }

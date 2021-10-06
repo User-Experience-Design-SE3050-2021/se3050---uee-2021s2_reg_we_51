@@ -6,11 +6,13 @@ package com.example.uee_ndb_neos_bankingapp.ui.bills;
         import android.widget.AdapterView;
         import android.widget.ArrayAdapter;
         import android.widget.Button;
+        import android.widget.ImageButton;
         import android.widget.Spinner;
         import android.widget.Toast;
 
         import androidx.appcompat.app.AppCompatActivity;
 
+        import com.example.uee_ndb_neos_bankingapp.MainActivity;
         import com.example.uee_ndb_neos_bankingapp.R;
 
 public class OneTimeBillPayment extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -29,6 +31,23 @@ public class OneTimeBillPayment extends AppCompatActivity implements AdapterView
     }
     public void sendToFundTransfer(View view) {
         Intent intent = new Intent(this,  AddBiller.class);
+        Button button = (Button) findViewById(R.id.button2);
+        startActivity(intent);
+    }
+
+    public void sendToHome(View view) {
+        Intent intent = new Intent(this,  MainActivity.class);
+        ImageButton button = (ImageButton) findViewById(R.id.back);
+        startActivity(intent);
+    }
+
+    public void submit(View view) {
+        Intent intent = new Intent(this,  MainActivity.class);
+        Button button = (Button) findViewById(R.id.button);
+        startActivity(intent);
+    }
+    public void cancel(View view) {
+        Intent intent = new Intent(this,  MainActivity.class);
         Button button = (Button) findViewById(R.id.button2);
         startActivity(intent);
     }

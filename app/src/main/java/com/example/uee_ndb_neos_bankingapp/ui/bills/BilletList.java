@@ -18,7 +18,7 @@ public class BilletList extends AppCompatActivity {
 
     }
 
-    public void sendToFundPayeeForm(View view) {
+    public void sendToBillForm(View view) {
         Intent intent = new Intent(this,  AddBiller.class);
         ImageButton image = (ImageButton) findViewById(R.id.add);
         startActivity(intent);

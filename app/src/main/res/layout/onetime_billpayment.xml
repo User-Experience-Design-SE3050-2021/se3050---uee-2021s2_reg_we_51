@@ -17,30 +17,34 @@
             android:layout_width="318dp"
             android:layout_height="36dp"
             android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
             android:background="@drawable/fund_border_blue"
             android:inputType="text"
             android:padding="10dp"
             android:textColor="#686161"
             android:textColorHint="#686161"
+
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintHorizontal_bias="0.402"
             app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="SpeakableTextPresentCheck"
-            tools:layout_editor_absoluteY="443dp" />
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:hint="Amount (LKR)"
             android:textColorHint="#403C3C"
+
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.139"
+            app:layout_constraintHorizontal_bias="0.129"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="415dp" />
+            app:layout_constraintTop_toBottomOf="@+id/edit_text3" />
 
         <ImageButton
             android:id="@+id/back"
@@ -50,10 +54,12 @@
             android:background="@color/red"
             android:onClick="sendToHome"
             android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
             app:layout_constraintEnd_toStartOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.282"
+            app:layout_constraintHorizontal_bias="0.28"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/textView"
@@ -61,15 +67,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="120dp"
-            android:hint="Fund Transaction"
-            android:textColorHint="#040303"
+            android:hint="One Time Bill Payment"
+            android:textColorHint="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            tools:text="One Time Bill Payment" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/textView1"
@@ -100,44 +105,51 @@
             android:id="@+id/textView3"
             android:layout_width="89dp"
             android:layout_height="18dp"
-            android:layout_marginStart="160dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="4dp"
             android:hint="Easy Saver"
             android:textColorHint="#322E2E"
             android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/imageView4"
-            tools:layout_editor_absoluteY="123dp" />
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="120dp"
             android:hint="100 034 532 124"
             android:textColorHint="#322E2E"
             android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            tools:layout_editor_absoluteY="149dp" />
+            app:layout_constraintHorizontal_bias="0.147"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="72dp"
             android:hint="LKR. 1,000,000"
             android:textColorHint="#000000"
             android:textSize="14sp"
-            tools:layout_editor_absoluteX="285dp"
-            tools:layout_editor_absoluteY="169dp" />
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="123dp"
-            android:layout_height="72dp"
-            app:srcCompat="@drawable/letters"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="123dp" />
-
+            android:layout_width="92dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            app:srcCompat="@drawable/letters" />
 
         <TextView
             android:id="@+id/textView5"
@@ -221,49 +233,54 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="3dp"
             android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/fund_border_blue"
+            android:hint="234 348 765 874"
             android:inputType="text"
             android:padding="10dp"
             android:textColor="#686161"
             android:textColorHint="#686161"
             android:textSize="14sp"
-            android:hint="234 348 765 874"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
+            android:layout_marginTop="16dp"
             android:hint="Remark"
             android:textColorHint="#403C3C"
+
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.123"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edit_text3" />
+            app:layout_constraintTop_toBottomOf="@+id/edit_text" />
 
         <EditText
             android:id="@+id/editTextTextMultiLine1"
             android:layout_width="321dp"
             android:layout_height="67dp"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/fund_border_blue"
             android:ems="10"
             android:gravity="start|top"
+            android:hint="Dialog bill payment for the month September"
             android:inputType="textMultiLine"
             android:padding="10dp"
             android:textColor="#686161"
             android:textColorHint="#686161"
             android:textSize="14sp"
-            android:hint="Dialog bill payment for the month September"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="521dp" />
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <Button
             android:id="@+id/button"
@@ -304,13 +321,13 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Available Balance"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.946"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="191dp" />
+            android:id="@+id/textView31"
+            android:layout_width="110dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="64dp"
+            android:text="Available balance"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

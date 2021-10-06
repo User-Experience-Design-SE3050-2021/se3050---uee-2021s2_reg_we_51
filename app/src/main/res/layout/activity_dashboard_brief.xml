@@ -88,6 +88,7 @@
         android:layout_marginTop="28dp"
         app:cardCornerRadius="50dp"
         app:cardElevation="4dp"
+        android:onClick="sendToBillManagement"
         app:cardMaxElevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView6">

@@ -44,16 +44,10 @@ public class AddBiller extends AppCompatActivity implements AdapterView.OnItemSe
 
     }
 
-    /*public void backToList(View view) {
-        Intent intent = new Intent(this,  FundPayeeList.class);
-        ImageButton image = (ImageButton) findViewById(R.id.back);
+    public void backToList(View view) {
+        Intent intent = new Intent(this,  BilletList.class);
+        Button image = (Button) findViewById(R.id.button2);
         startActivity(intent);
     }
-
-    public void submit(View view) {
-        Intent intent = new Intent(this,  FundPayeeList.class);
-        Button button = (Button) findViewById(R.id.button);
-        startActivity(intent);
-    }*/
 }
 

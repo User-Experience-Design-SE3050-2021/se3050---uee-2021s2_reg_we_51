@@ -3,25 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/account_box.xml" value="0.2703125" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/button.xml" value="0.2703125" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_background.xml" value="0.2703125" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/text_area.xml" value="0.2703125" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_dashboard_brief.xml" value="0.1" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/add_biller.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/app_bar_main.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/bill_payment.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/content_main.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_home.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_form.xml" value="0.1" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/nav_header_main.xml" value="0.23854166666666668" />
-=======
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/account_box.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/contact_us_input.xml" value="0.1" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/dashboardimg_background.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_add_button.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_background.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_background_box.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_blue.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_red.xml" value="0.2" />
@@ -30,12 +18,15 @@
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_payee_list.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/payee_bank_name.xml" value="0.1707236842105263" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/profile_img_background.xml" value="0.1707236842105263" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_contact_us.xml" value="0.16052631578947368" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_dashboard_brief.xml" value="0.16052631578947368" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/add_biller.xml" value="0.16052631578947368" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_registation__one.xml" value="0.16052631578947368" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_registation_two.xml" value="0.16052631578947368" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_border_red.xml" value="0.16052631578947368" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_form.xml" value="0.264" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_list.xml" value="0.2" />
@@ -44,58 +35,12 @@
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_form.xml" value="0.2" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_onetime.xml" value="0.264" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/onetime_billpayment.xml" value="0.1" />
         <entry key="..\:/Android projects/se3050---uee-2021s2_reg_we_51/app/src/main/res/menu/activity_main_drawer.xml" value="0.6" />
-<<<<<<< HEAD
->>>>>>> 0310e56bbe8b59700cff3e1f51f2d322eac285e8
-=======
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable-xxhdpi/rkbuttons.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable-xxhdpi/rkinputs.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/contact_us_input.xml" value="0.2703125" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/dashboardimg_background.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_background_box.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_blue.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/fund_border_red.xml" value="0.28177083333333336" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/drawable/rk_new_button.xml" value="0.27760416666666665" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_basic_neos_registation_page.xml" value="0.14356884057971014" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_contact_us.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_dashboard_brief.xml" value="0.21240942028985507" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_main.xml" value="0.1816123188405797" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_main_registation_page.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_new_user_first_log_in.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_rk_registered_user_daily_login.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/activity_rkinitial_landing_one.xml" value="0.2" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/add_biller.xml" value="0.20380434782608695" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/app_bar_main.xml" value="0.176" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/content_main.xml" value="0.20380434782608695" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_blank_fragmentdelete.xml" value="0.13903985507246377" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_first.xml" value="0.14356884057971014" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_registation__one.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_registation_page.xml" value="0.16847826086956522" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_registation_two.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fragment_second.xml" value="0.14356884057971014" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_form.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_payee_list.xml" value="0.20652173913043478" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_form.xml" value="0.2" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/fund_transaction_onetime.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/nav_header_main.xml" value="0.20652173913043478" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/layout/rk_new_button.xml" value="0.19067028985507245" />
-        <entry key="..\:/Users/ASUS/Dropbox (Old)/My PC (DESKTOP-HBOSRS3)/Desktop/NEW_UEE_CLONE_RK/se3050---uee-2021s2_reg_we_51/app/src/main/res/menu/activity_main_drawer.xml" value="0.265625" />
->>>>>>> a9df26b012f6747f558c4d818ee39072a9b22e78
       </map>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-<<<<<<< HEAD
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.25416666666666665" />
-      </ProjectState>
-    </option>
-=======
->>>>>>> 0310e56bbe8b59700cff3e1f51f2d322eac285e8
   </component>
 </project>

@@ -56,10 +56,10 @@
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/fund_border_red"
                 android:inputType="text"
-                android:paddingBottom="10dp"
+                android:paddingLeft="34dp"
                 android:paddingTop="10dp"
                 android:paddingRight="10dp"
-                android:paddingLeft="34dp"
+                android:paddingBottom="10dp"
                 android:textColor="#686161"
                 android:textColorHint="#686161"
                 android:textSize="14sp" />
@@ -78,8 +78,8 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/account_box">
 
             <RelativeLayout
@@ -303,7 +303,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="110dp"
                 android:layout_marginRight="5dp"
-                android:background="@color/white"
+                android:background="#00FFFFFF"
                 android:onClick="sendToFundPayeeForm"
                 android:src="@drawable/fund_add_button" />
         </RelativeLayout>

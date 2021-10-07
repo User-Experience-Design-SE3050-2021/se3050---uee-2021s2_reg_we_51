@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.uee_ndb_neos_bankingapp.ui.bills.BilletList;
+import com.example.uee_ndb_neos_bankingapp.ui.fund.FundMain;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionOneTime;
 import com.example.uee_ndb_neos_bankingapp.ui.home.HomeFragment;
@@ -33,7 +34,7 @@ public class DashboardBrief extends AppCompatActivity {
     }
 
     public void sendToPayeeManagement(View view) {
-        Intent intent = new Intent(this,  FundPayeeList.class);
+        Intent intent = new Intent(this,  FundMain.class);
         CardView button = (CardView) findViewById(R.id.cardView20);
         startActivity(intent);
     }

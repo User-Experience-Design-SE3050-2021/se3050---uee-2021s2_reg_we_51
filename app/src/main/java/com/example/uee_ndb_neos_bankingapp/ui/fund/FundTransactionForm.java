@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -28,25 +30,18 @@ public class FundTransactionForm extends AppCompatActivity implements AdapterVie
         setContentView(R.layout.fund_transaction_form);
 
         fundbuton = (Button) findViewById(R.id.button);
-        builder = new AlertDialog.Builder(this);
+        builder = new AlertDialog.Builder(this,R.style.MyDialogTheme);
         fundbuton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //Uncomment the below code to Set the message and title from the strings.xml file
-               // builder.setMessage("messageee") .setTitle("R.string.dialog_title");
-
-                //Setting message manually and performing action on button click
-                builder.setMessage("Do you want to Pay ?")
+                builder.setMessage("Do you want to do this transaction ?")
                         .setCancelable(false)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 //finish();
-
-                                Intent intent = new Intent(getApplicationContext(),  MainActivity.class);
-
-                                Toast.makeText(getApplicationContext(),"Paid",
-                                        Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(getApplicationContext(),  FundSummary.class);
+                                Toast.makeText(getApplicationContext(),"Transferred",
+                                        Toast.LENGTH_SHORT);
                                 startActivity(intent);
                             }
                         })
@@ -62,13 +57,10 @@ public class FundTransactionForm extends AppCompatActivity implements AdapterVie
                 //done
                 AlertDialog alert = builder.create();
                 //Setting the title manually
-                alert.setTitle("AlertDialogExample");
+                alert.setTitle("Alert");
                 alert.show();
             }
         });
-
-
-
         Spinner spinner = findViewById(R.id.spinner1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.payee_list, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);;
@@ -83,9 +75,8 @@ public class FundTransactionForm extends AppCompatActivity implements AdapterVie
     }
     public void sendToHome(View view) {
         Intent intent = new Intent(this,  MainActivity.class);
-
-
-        //startActivity(intent);
+        ImageButton button = (ImageButton) findViewById(R.id.back);
+        startActivity(intent);
     }
 
     @Override

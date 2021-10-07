@@ -27,6 +27,7 @@ import com.example.uee_ndb_neos_bankingapp.R;
 import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
 import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
 import com.example.uee_ndb_neos_bankingapp.ui.bills.BillPayment;
+import com.example.uee_ndb_neos_bankingapp.ui.fund.FundMain;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionForm;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -68,7 +69,7 @@ public class HomeFragment extends Fragment {
         ibtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), FundTransactionForm.class);
+                Intent intent = new Intent(getContext(), FundMain.class);
                 startActivity(intent);
 
             }

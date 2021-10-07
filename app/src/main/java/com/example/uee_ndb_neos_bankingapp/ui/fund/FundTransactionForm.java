@@ -59,6 +59,7 @@ public class FundTransactionForm extends AppCompatActivity implements AdapterVie
                             }
                         });
                 //Creating dialog box
+                //done
                 AlertDialog alert = builder.create();
                 //Setting the title manually
                 alert.setTitle("AlertDialogExample");

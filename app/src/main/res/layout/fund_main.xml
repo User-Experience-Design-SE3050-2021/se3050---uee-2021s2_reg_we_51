@@ -46,8 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="150dp"
-            android:onClick="sendToFundTransactionForm"
-            android:background="@drawable/fund_main_button">
+            android:background="@drawable/fund_main_button"
+            android:onClick="sendToFundTransactionForm">
 
             <RelativeLayout
                 android:layout_width="110dp"
@@ -83,8 +83,8 @@
             android:id="@+id/fund_payee"
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:onClick="sendToPayee"
-            android:background="@drawable/fund_main_button">
+            android:background="@drawable/fund_main_button"
+            android:onClick="sendToPayee">
 
             <RelativeLayout
                 android:layout_width="100dp"

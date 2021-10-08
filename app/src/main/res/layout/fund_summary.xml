@@ -57,6 +57,10 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
                 app:cardBackgroundColor="#DAEDF3"
                 app:cardCornerRadius="15dp">
                 <LinearLayout
@@ -76,7 +80,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
-                            android:text="Pay to"
+                            android:text="Pay From"
                             android:textSize="15dp"
                             android:textStyle="bold" />
 
@@ -147,8 +151,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentLeft="true"
                                     android:text="100000.00"
-                                    android:textStyle="italic"
-                                    android:textSize="14dp" />
+                                    android:textSize="14dp"
+                                    android:textStyle="italic" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -186,8 +190,11 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="#FFFFFF"
-                android:layout_marginTop="165dp"
+                app:cardBackgroundColor="#59FFFFFF"
+                android:layout_marginTop="175dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="15dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -214,9 +221,16 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
                             android:text="SLIIT"
-                            android:textSize="15dp"/>
+                            android:textSize="15dp" />
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="#ECEBED" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -241,6 +255,13 @@
                             android:textSize="15dp"/>
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="#ECEBED" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -265,6 +286,13 @@
                             android:textSize="15dp"/>
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="#ECEBED" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -289,6 +317,13 @@
                             android:textSize="15dp"/>
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="#ECEBED" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -313,13 +348,20 @@
                             android:textSize="15dp"/>
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="#ECEBED" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp">
+                        android:layout_marginBottom="20dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -344,7 +386,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="460dp"
+            android:layout_marginTop="475dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="8dp">

@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -27,6 +28,7 @@ import com.example.uee_ndb_neos_bankingapp.R;
 import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
 import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
 import com.example.uee_ndb_neos_bankingapp.ui.bills.BillPayment;
+import com.example.uee_ndb_neos_bankingapp.ui.fund.Credit_card_details;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundMain;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionForm;
@@ -44,6 +46,7 @@ public class HomeFragment extends Fragment {
     // imageview view variable
 
     ImageButton ibtn1 ;
+    CardView creditCard;
     ImageButton ibtn2;
     FloatingActionButton fab1;
     ImageButton RKibtn01 ;
@@ -61,10 +64,18 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         RKibtn01 = root.findViewById(R.id.imageButton23);
+        creditCard = root.findViewById(R.id.cardView2);
         ibtn1 = root.findViewById(R.id.imageButton22);//For fund transaction
         ibtn2 = root.findViewById(R.id.imageButton19);//For bill payment
         fab1 = root.findViewById(R.id.floatingActionButton);
 
+        creditCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Credit_card_details.class);
+                startActivity(intent);
+            }
+        });
 
         ibtn1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -17,10 +17,47 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.uee_ndb_neos_bankingapp.R;
 
 public class FundPayeeForm extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    Button submit;
+    AlertDialog.Builder builder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fund_payee_form);
+
+        submit = (Button) findViewById(R.id.button);
+        builder = new AlertDialog.Builder(this,R.style.MyDialogTheme);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                builder.setMessage("Do you want to save this payee ?")
+                        .setCancelable(false)
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                //finish();
+                                Intent intent = new Intent(getApplicationContext(),  FundPayeeList.class);
+                                Toast.makeText(getApplicationContext(),"Saved",
+                                        Toast.LENGTH_SHORT);
+                                startActivity(intent);
+                            }
+                        })
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                //  Action for 'NO' Button
+                                dialog.cancel();
+                                Toast.makeText(getApplicationContext(),"Canceled",
+                                        Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                //Creating dialog box
+                //done
+                AlertDialog alert = builder.create();
+                //Setting the title manually
+                alert.setTitle("Alert");
+                alert.show();
+            }
+        });
 
         Spinner spinner = findViewById(R.id.spinner1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.bank_list, android.R.layout.simple_spinner_item);

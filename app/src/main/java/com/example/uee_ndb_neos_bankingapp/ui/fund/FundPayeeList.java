@@ -15,7 +15,6 @@ public class FundPayeeList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fund_payee_list);
-
     }
 
     public void sendToFundPayeeForm(View view) {

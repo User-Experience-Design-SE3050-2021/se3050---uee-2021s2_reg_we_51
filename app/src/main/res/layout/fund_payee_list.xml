@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/fund_background_list">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -53,7 +54,6 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/fund_border_red"
                 android:inputType="text"
                 android:paddingLeft="34dp"
@@ -76,12 +76,22 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/account_box">
+            android:layout_marginEnd="10dp">
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="15dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
             <RelativeLayout
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
@@ -114,179 +124,215 @@
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="5761 5688 5453"
-                android:textColor="#716666"
-                android:textSize="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:padding="15dp"
+                    android:text="5761 5688 5453"
+                    android:textColor="#716666"
+                    android:textSize="15dp" />
+                </RelativeLayout>
 
-
+            </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/account_box">
+            android:layout_marginEnd="10dp">
 
-            <RelativeLayout
-                android:layout_width="100dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginBottom="14dp"
-                android:background="@drawable/payee_bank_name">
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="15dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/payee_bank_name">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:text="NDB"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="NDB"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
 
-            </RelativeLayout>
+                    </RelativeLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="Navodya Pasqual"
-                android:textColor="#514949"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="Navodya Pasqual"
+                        android:textColor="#514949"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="1367 7867 5674"
-                android:textColor="#716666"
-                android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="1367 7867 5674"
+                        android:textColor="#716666"
+                        android:textSize="15dp" />
+                </RelativeLayout>
 
-
+            </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/account_box">
+            android:layout_marginEnd="10dp">
 
-            <RelativeLayout
-                android:layout_width="100dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginBottom="14dp"
-                android:background="@drawable/payee_bank_name">
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="15dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/payee_bank_name">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:text="PB"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="PB"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
 
-            </RelativeLayout>
+                    </RelativeLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="Dilini Pasqual"
-                android:textColor="#514949"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="Dilini Pasqual"
+                        android:textColor="#514949"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="6392 2943 0853"
-                android:textColor="#716666"
-                android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="5372 7027 7820"
+                        android:textColor="#716666"
+                        android:textSize="15dp" />
+                </RelativeLayout>
 
-
+            </androidx.cardview.widget.CardView>
         </RelativeLayout>
+
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/account_box">
+            android:layout_marginEnd="10dp">
 
-            <RelativeLayout
-                android:layout_width="100dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginBottom="14dp"
-                android:background="@drawable/payee_bank_name">
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="15dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/payee_bank_name">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:text="RDB"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="RDB"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
 
-            </RelativeLayout>
+                    </RelativeLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="Prabavi Ranaweera"
-                android:textColor="#514949"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="Prabavi Ranaveera"
+                        android:textColor="#514949"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginRight="20dp"
-                android:padding="15dp"
-                android:text="7390 6739 0970"
-                android:textColor="#716666"
-                android:textSize="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="5693 7820 0820"
+                        android:textColor="#716666"
+                        android:textSize="15dp" />
+                </RelativeLayout>
 
+            </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
         <RelativeLayout
@@ -301,7 +347,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="110dp"
+                android:layout_marginTop="90dp"
                 android:layout_marginRight="5dp"
                 android:background="#00FFFFFF"
                 android:onClick="sendToFundPayeeForm"

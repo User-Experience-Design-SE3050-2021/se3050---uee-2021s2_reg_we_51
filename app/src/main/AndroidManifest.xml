@@ -73,6 +73,10 @@
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".ui.fund.Credit_card_details"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".ui.bills.BillPayment"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20458157765",
+    "project_id": "ndb-neos",
+    "storage_bucket": "ndb-neos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20458157765:android:c638a3676f201c827f22ac",
+        "android_client_info": {
+          "package_name": "com.example.uee_ndb_neos_bankingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20458157765-odtrkaek4e7qun692ddq8hsjrmb3tsfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3o1iK5ZzW7Shp_5dWQ3BgzLdsEC3W36E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20458157765-odtrkaek4e7qun692ddq8hsjrmb3tsfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

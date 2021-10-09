@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdk 31
 
@@ -45,4 +47,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.android.support:design:31.0.0'
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
+    implementation 'com.google.firebase:firebase-database'
 }

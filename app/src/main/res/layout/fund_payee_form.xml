@@ -135,6 +135,7 @@
                             android:textSize="15sp" />
 
                         <EditText
+                            android:id="@+id/account_number"
                             android:layout_width="match_parent"
                             android:layout_height="36dp"
                             android:layout_marginLeft="5dp"
@@ -165,6 +166,7 @@
                             android:textSize="15sp" />
 
                         <EditText
+                            android:id="@+id/nick_name"
                             android:layout_width="match_parent"
                             android:layout_height="36dp"
                             android:layout_marginLeft="5dp"
@@ -209,7 +211,6 @@
                             android:layout_marginTop="32dp"
                             android:layout_marginEnd="42dp"
                             android:background="@drawable/fund_submit_button"
-                            android:onClick="submit"
                             android:text="Submit"
                             android:textColor="@color/red"
                             android:textSize="14sp"

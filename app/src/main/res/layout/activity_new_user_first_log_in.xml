@@ -18,11 +18,11 @@
         android:background="@drawable/rkinputs"
         android:hint="Please Enter your User Name"
         android:inputType="text"
-        android:padding="15dp"
-        android:textColor="#FF03DAC5"
-        android:textColorHint="#FF03DAC5"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
         android:textSize="15sp"
-        android:textStyle="italic"></EditText>
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/UHNlogin_password_input"
@@ -36,10 +36,10 @@
         android:hint="Please Enter your Passwod"
         android:inputType="textPassword"
         android:padding="15dp"
-        android:textColor="#FF03DAC5"
-        android:textColorHint="#FF03DAC5"
-        android:textSize="15sp"
-        android:textStyle="italic"></EditText>
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
 
     <LinearLayout
         android:id="@+id/UHNlinear_layout_1"

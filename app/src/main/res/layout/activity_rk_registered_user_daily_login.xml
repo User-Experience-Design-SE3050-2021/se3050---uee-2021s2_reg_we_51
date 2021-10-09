@@ -7,7 +7,6 @@
         android:background="@drawable/r_capture_rr1"
         tools:context=".RK_registered_user_daily_login">
 
-
     <EditText
         android:id="@+id/login_password_input"
         android:layout_width="match_parent"
@@ -16,13 +15,13 @@
         android:layout_marginTop="360dp"
         android:layout_marginRight="15dp"
         android:background="@drawable/rkinputs"
-        android:hint="Please Enter your Passwod"
+        android:hint="Please Enter your Password"
         android:inputType="textPassword"
-        android:padding="15dp"
-        android:textColor="#FF03DAC5"
-        android:textColorHint="#FF03DAC5"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
         android:textSize="15sp"
-        android:textStyle="italic"></EditText>
+        android:textStyle="italic" />
 
     <LinearLayout
         android:id="@+id/linear_layout_1"
@@ -70,16 +69,14 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/fund_border_red"
+        android:onClick="sendToHome"
         android:padding="10dp"
         android:text="Log IN"
-        android:onClick="sendToHome"
         android:textAllCaps="false"
         android:textColor="#E53535"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:ignore="RtlCompat"
-
-        />
+        tools:ignore="RtlCompat" />
 
 
     <TextView

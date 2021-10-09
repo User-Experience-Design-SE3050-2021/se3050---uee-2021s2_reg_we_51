@@ -242,7 +242,7 @@
                         android:layout_marginBottom="0dp"
                         android:text="I confirm that, I'm the owner of the Bank Account."
                         android:textColor="#403C3C"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"/>
 
                 </RelativeLayout>
 
@@ -259,7 +259,7 @@
                         android:layout_marginStart="42dp"
                         android:layout_marginTop="05dp"
                         android:layout_marginEnd="42dp"
-                        android:background="@drawable/fund_border_red"
+                        android:background="@drawable/fund_submit_button"
                         android:onClick="submit"
                         android:text="Register NEOS"
                         android:textColor="@color/red"

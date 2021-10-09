@@ -253,7 +253,7 @@
                         android:layout_marginStart="42dp"
                         android:layout_marginTop="05dp"
                         android:layout_marginEnd="42dp"
-                        android:background="@drawable/fund_border_red"
+                        android:background="@drawable/fund_submit_button"
                         android:onClick="submit"
                         android:text="Register NEOS"
                         android:textColor="@color/red"

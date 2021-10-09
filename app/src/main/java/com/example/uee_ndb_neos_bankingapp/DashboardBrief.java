@@ -40,4 +40,10 @@ public class DashboardBrief extends AppCompatActivity {
         CardView button = (CardView) findViewById(R.id.cardView12);
         startActivity(intent);
     }
+
+    public void sendToContactUs(View view) {
+        Intent intent = new Intent(this,  ContactUs.class);
+        CardView button = (CardView) findViewById(R.id.cardView16);
+        startActivity(intent);
+    }
 }

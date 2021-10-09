@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="SpeakableTextPresentCheck"
-    tools:context=".ui.bills.BillPayment">
+    tools:context=".ui.bills.BillPaymentForm">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -162,7 +162,7 @@
             app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
         <EditText
-            android:id="@+id/edit_text2"
+            android:id="@+id/amount"
             android:layout_width="318dp"
             android:layout_height="36dp"
             android:layout_marginStart="6dp"
@@ -194,7 +194,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button3" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine1"
+            android:id="@+id/remark"
             android:layout_width="318dp"
             android:layout_height="110dp"
             android:layout_marginStart="16dp"
@@ -229,7 +229,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine1" />
+            app:layout_constraintTop_toBottomOf="@+id/remark" />
 
         <Button
             android:id="@+id/button2"
@@ -271,7 +271,7 @@
             android:text="Later"
             android:textColor="#00BCD4"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edit_text2" />
+            app:layout_constraintTop_toBottomOf="@+id/amount" />
 
         <ImageView
             android:id="@+id/imageView6"

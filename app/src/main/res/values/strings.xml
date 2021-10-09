@@ -30,7 +30,24 @@
         <item>Saving Account</item>
         <item>Current Account</item>
     </string-array>
-
+    <string-array name="Service_provider">
+        <item>Select a service provider</item>
+        <item>Dialog</item>
+        <item>SLT</item>
+        <item>Mobitel</item>
+    </string-array>
+    <string-array name="biller_category">
+        <item>Select a biller category</item>
+        <item>Electricity</item>
+        <item>Insurance</item>
+        <item>Telephone</item>
+    </string-array>
+    <string-array name="biller_nickname">
+        <item>Select a biller</item>
+        <item>Dialog</item>
+        <item>Mobitel</item>
+        <item>SLT</item>
+    </string-array>
     <string name="Create_Account_Selection_Button">Create NEOS Account</string>
     <string name="Login_Selection_Btn">Log IN</string>
     <string name="Welcome_Massage">Hi There Welcome !</string>

@@ -77,11 +77,11 @@
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />
         <activity
-            android:name=".ui.bills.BillPayment"
+            android:name=".ui.bills.BillPaymentForm"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />
         <activity
-            android:name=".ui.bills.OneTimeBillPayment"
+            android:name=".ui.bills.OneTimeBillPaymentForm"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />
         <activity

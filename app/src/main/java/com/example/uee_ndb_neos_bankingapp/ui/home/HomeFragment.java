@@ -1,41 +1,25 @@
 package com.example.uee_ndb_neos_bankingapp.ui.home;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.uee_ndb_neos_bankingapp.ContactUs;
 import com.example.uee_ndb_neos_bankingapp.DashboardBrief;
-import com.example.uee_ndb_neos_bankingapp.MainRegistationPage;
-import com.example.uee_ndb_neos_bankingapp.NewUserFirstLogIN;
 import com.example.uee_ndb_neos_bankingapp.R;
 import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
 import com.example.uee_ndb_neos_bankingapp.databinding.FragmentHomeBinding;
-import com.example.uee_ndb_neos_bankingapp.ui.bills.BillPayment;
+import com.example.uee_ndb_neos_bankingapp.ui.bills.BillPaymentForm;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.Credit_card_details;
 import com.example.uee_ndb_neos_bankingapp.ui.fund.FundMain;
-import com.example.uee_ndb_neos_bankingapp.ui.fund.FundPayeeList;
-import com.example.uee_ndb_neos_bankingapp.ui.fund.FundTransactionForm;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import android.app.Activity;
-
 
 
 public class HomeFragment extends Fragment {
@@ -89,7 +73,7 @@ public class HomeFragment extends Fragment {
         ibtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), BillPayment.class);
+                Intent intent = new Intent(getContext(), BillPaymentForm.class);
                 startActivity(intent);
             }
         });

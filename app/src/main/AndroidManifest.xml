@@ -69,6 +69,10 @@
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".ui.fund.FundPayeeUpdateDelete"
+            android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".ui.fund.FundSummary"
             android:theme="@style/Theme.UEE_NDB_Neos_BankingApp.NoActionBar"
             tools:ignore="Instantiatable" />

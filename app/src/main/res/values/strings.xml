@@ -25,8 +25,18 @@
         <item>PB</item>
         <item>RDB</item>
     </string-array>
+    <string-array name="update_bank_list">
+        <item>BOC</item>
+        <item>NDB</item>
+        <item>PB</item>
+        <item>RDB</item>
+    </string-array>
     <string-array name="account_type_list">
         <item>Select a account type</item>
+        <item>Saving Account</item>
+        <item>Current Account</item>
+    </string-array>
+    <string-array name="update_account_type_list">
         <item>Saving Account</item>
         <item>Current Account</item>
     </string-array>

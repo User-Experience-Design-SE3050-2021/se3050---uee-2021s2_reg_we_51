@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,6 +27,12 @@ public class FundPayeeList extends AppCompatActivity {
     public void backToHome(View view) {
         Intent intent = new Intent(this,  MainActivity.class);
         ImageButton image = (ImageButton) findViewById(R.id.back);
+        startActivity(intent);
+    }
+
+    public void sendToPayeeUpdate(View view) {
+        Intent intent = new Intent(this,  FundPayeeUpdateDelete.class);
+        RelativeLayout item1 = (RelativeLayout) findViewById(R.id.item1);
         startActivity(intent);
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fund.FundPayeeForm">
+    tools:context=".ui.fund.FundPayeeUpdateDelete">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,10 +34,10 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Add Account Payees"
+                android:text="Update Account Payee"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -144,6 +144,7 @@
                             android:background="@drawable/fund_border_blue"
                             android:inputType="text"
                             android:padding="10dp"
+                            android:text="576156885453"
                             android:textColor="#686161"
                             android:textColorHint="#686161"
                             android:textSize="14sp" />
@@ -175,57 +176,70 @@
                             android:background="@drawable/fund_border_blue"
                             android:inputType="text"
                             android:padding="10dp"
+                            android:text="SLIIT"
                             android:textColor="#686161"
                             android:textColorHint="#686161"
                             android:textSize="14sp" />
                     </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="5dp">
-
-                        <CheckBox
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="30dp"
-                            android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
-                            android:text="I confirm that, transaction SMS alert service enabled with this account."
-                            android:textColor="#403C3C"
-                            android:textSize="15sp" />
-
-                    </RelativeLayout>
-
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="5dp"
                         android:layout_marginEnd="5dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginBottom="10dp">
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="120dp">
 
-                        <Button
-                            android:id="@+id/button"
+                        <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="42dp"
-                            android:layout_marginTop="32dp"
-                            android:layout_marginEnd="42dp"
-                            android:background="@drawable/fund_submit_button"
-                            android:text="Submit"
-                            android:textColor="@color/red"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="2dp">
+
+                            <Button
+                                android:id="@+id/delete"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginEnd="3dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/fund_submit_button"
+                                android:gravity="center"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:text="DELETE"
+                                android:textColor="@color/red"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/update"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginEnd="3dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/fund_submit_button"
+                                android:gravity="center"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:text="UPDATE"
+                                android:textColor="@color/red"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
 
                         <Button
                             android:id="@+id/button2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="42dp"
-                            android:layout_marginTop="88dp"
-                            android:layout_marginEnd="42dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="65dp"
+                            android:layout_marginEnd="12dp"
                             android:layout_marginBottom="30dp"
                             android:background="@drawable/fund_submit_button"
                             android:onClick="backToList"

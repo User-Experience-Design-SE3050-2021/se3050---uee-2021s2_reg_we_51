@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    android:background="#F7FFFFFF"
+    android:background="@drawable/credit_card_top"
     tools:context=".ui.fund.Credit_card_details">
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white">
+        android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -161,7 +160,7 @@
                             android:layout_marginStart="98dp"
                             android:layout_marginTop="74dp"
                             android:layout_marginEnd="20dp"
-                            android:background="@color/card1" />
+                            android:background="#EDEDED" />
 
                         <ImageView
                             android:layout_width="68dp"
@@ -295,7 +294,7 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="60dp"
                             android:layout_marginEnd="20dp"
-                            android:background="@color/card1" />
+                            android:background="#EDEDED" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -337,13 +336,14 @@
                                     android:textStyle="bold"/>
                             </RelativeLayout>
                         </LinearLayout>
+
                         <View
                             android:layout_width="wrap_content"
                             android:layout_height="1dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="120dp"
                             android:layout_marginEnd="20dp"
-                            android:background="@color/card1" />
+                            android:background="#EDEDED" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"

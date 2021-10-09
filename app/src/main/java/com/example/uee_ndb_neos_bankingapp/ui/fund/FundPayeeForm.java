@@ -28,8 +28,7 @@ public class FundPayeeForm extends AppCompatActivity implements AdapterView.OnIt
     Button submit;
     DatabaseReference dbRef;
     AlertDialog.Builder builder;
-    String bank;
-    String accountType;
+    String bank, accountType;
     Payee payee;
 
     @Override

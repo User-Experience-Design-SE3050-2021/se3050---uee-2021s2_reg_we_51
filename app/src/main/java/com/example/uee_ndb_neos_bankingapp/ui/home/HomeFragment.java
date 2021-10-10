@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.uee_ndb_neos_bankingapp.ContactUs;
 import com.example.uee_ndb_neos_bankingapp.DashboardBrief;
 import com.example.uee_ndb_neos_bankingapp.R;
 import com.example.uee_ndb_neos_bankingapp.RKInitialLandingOne;
@@ -89,7 +90,7 @@ public class HomeFragment extends Fragment {
         RKibtn01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), RKInitialLandingOne.class);
+                Intent intent = new Intent(getContext(), ContactUs.class);
                 startActivity(intent);
             }
         });

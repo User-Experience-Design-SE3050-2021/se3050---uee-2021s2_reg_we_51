@@ -18,7 +18,7 @@ public class NewUserFirstLogIN extends AppCompatActivity {
     }
 
     public void sendToUsualLogin(View view) {
-        Intent intent = new Intent(this,  RK_registered_user_daily_login.class);
+        Intent intent = new Intent(this,  MainActivity.class);
         Button image = (Button) findViewById(R.id.login_btn);
 
         EditText editText1 = (EditText) findViewById(R.id.UHN_login_Usn_input);

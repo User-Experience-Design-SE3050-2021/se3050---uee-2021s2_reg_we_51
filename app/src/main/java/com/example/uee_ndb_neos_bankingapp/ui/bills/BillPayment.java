@@ -5,9 +5,7 @@ public class BillPayment {
     private String remark;
     private Float amount;
 
-    public BillPayment() {
-
-    }
+    public BillPayment() { }
 
     public String getBiller() {
         return biller;

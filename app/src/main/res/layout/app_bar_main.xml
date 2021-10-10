@@ -17,7 +17,31 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#8E152C"
             android:visibility="visible"
-            app:popupTheme="@style/Theme.UEE_NDB_Neos_BankingApp.PopupOverlay" />
+            app:popupTheme="@style/Theme.UEE_NDB_Neos_BankingApp.PopupOverlay">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NDB"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#E65E5A"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="54dp"
+                android:text="neos"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#58BBD5"
+                />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
 
 
     </com.google.android.material.appbar.AppBarLayout>
